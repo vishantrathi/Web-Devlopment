@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media in HTML</title>
+</head>
+<body>
+    <h1>Video</h1>
+    <video src="Video/1. What is Version Control  Git vs GitHub.MP4"controls></video>
+    <!--controls is a attribute for video tag 
+    we have more attributes for video tags such as 
+    1.src: Specifies the path to the video file.
+    2.controls: Adds video controls, like play, pause, and volume.
+    3.autoplay: Automatically starts playing the video when the page loads.
+    4.loop: Repeats the video once it ends.
+    5.muted: Mutes the video by default.
+    6.poster: Specifies an image to be displayed before the video starts playing.
+    7.width and height: Specifies the dimensions of the video.-->
+    <H1>Audio</H1>
+    <audio src="audio/sample-3s.mp3" controls></audio>
+    <!--Attributes for <audio> Tag
+    1.src: Specifies the path to the audio file.
+    2.controls: Adds audio controls, like play, pause, and volume.
+    3.autoplay: Automatically starts playing the audio when the page loads.
+    4.loop: Repeats the audio once it ends.
+    5.muted: Mutes the audio by default.
+    6.preload: Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').
+    -->
+    <!--The "preload" attribute can have the following values:
+
+     none: This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when the user initiates playback.
+
+    metadata: This value tells the browser to preload only the metadata of the audio file, such as its duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+
+    auto: This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.-->
+    <h2>svg</h2>
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <!--Scalable Vector Graphics (SVG) has become an
+         indispensable part of modern web development. 
+         SVG enables developers to create high-quality, 
+         scalable graphics that look crisp at any size or resolution.
+          In this blog post, we'll explore the basics of using SVG in HTML, 
+        its benefits, and some practical examples-->
+        <h2>i frame</h2>
+        <!--An iFrame is an HTML element that enables an inline frame for the embedding of external content. Essentially, 
+            you can load another web page within a designated area of your current webpage.-->
+            <iframe width="935" height="526" src="https://www.youtube.com/embed/XZwBNDGuWGU?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w" title="Video, Audio &amp; Media in HTML | Sigma Web Development Course - Tutorial #10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

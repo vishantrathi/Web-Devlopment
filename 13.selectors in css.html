@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        /*element selector*/
+        background-color: red;
+    }
+    /* class selector*/
+
+    .second{
+        background-color: violet;
+    }
+    /* id selector*/
+    #green{
+        background-color: yellow;
+        /*child selector*/
+
+    }
+    div>p{
+        color: antiquewhite;
+        background-color: blueviolet;
+    }
+    div>article{
+        color: chartreuse;
+        background-color: darkgreen;
+    }
+    /*universal selector*/
+    *{
+        margin: 1px;
+        padding: 10px;
+    }
+    /*pseudo selector*/
+    a:visited{
+        color: black;
+    }
+    a:link{
+        color: crimson;
+    }
+    a:active{
+        background-color: deeppink;
+    }
+    a:hover{
+        background-color: darkorange;
+
+    }
+
+
+</style>
+<body>
+    <div >
+        this i div
+        <p>i am para inside this div</p>
+    </div>
+    <div class="second">
+        this is second div
+        <article>
+            i am a artical inside a div
+        </article>
+    </div>
+    <div id="green">
+        this is third div
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+</body>
+</html>

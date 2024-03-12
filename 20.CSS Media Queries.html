@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css media</title>
+    <title>css media </title>
 </head>
+<style>
+    .body{
+        background-color: red;
+    }
+    @media only screen and (max-width: 600px){
+        .body{
+            background-color: blue;
+        }
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+</style>
 <body>
-    
+     <div class="body">
+        Hey, i am a div
+     </div>
+     <div class="box"> </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
 </body>
 </html>

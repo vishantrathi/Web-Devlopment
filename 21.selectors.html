@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .divc{
+        border: 2px solid black;
+    }
+    .div1{
+        border: 2px solid blue;
+    }
+    .div2{
+        border: 2px solid rgb(255, 0, 13);
+    }
+    .div3{
+        border: 2px solid rgb(68, 255, 0);
+    }
+    .divc:nth-child(2){
+        border: 2px solid rgb(255, 0, 13);
+        background-color: lightcoral;
+    }
+    ::selection{
+        background-color: lightgreen;
+        color: black;
+    }
+    .divc::first-letter{
+        color: red;
+        font-size: 30px;
+    
+    }
+</style>
+<body>
+    <div class="divc">
+    <div class="div1">HEY I AM A DIV</div>
+    <div class="div2">HEY I AM A DIV</div>
+    <div class="div3">HEY I AM A DIV</div>
+</div>
+</body>
+</html>

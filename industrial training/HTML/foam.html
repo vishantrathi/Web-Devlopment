@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOAMS</title>
+    <style>
+        fieldset{
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+        }
+        legend{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        input{
+            width: 85%;
+            margin: 10px;
+            padding: 10px;
+        }
+        .button{
+            width: 90%;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- FOAMS ARE THE ONLY METHOD TO SEND DATA FROM CLINET SIDE TO SERVER SIDE -->
+    <form action="foam.php" method="get">
+        <fieldset>
+        <legend>LOGIN</legend>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <input class="text" type="text" placeholder="Enter captcha here">
+        <input type="image" name="image" src="https://th.bing.com/th/id/OIP.YGnltpbO6yNSSG0dMd-GogHaDJ?w=335&h=148&c=7&r=0&o=5&dpr=1.1&pid=1.7" width="10px" height="45px" id="image">
+        <input type="color" name="color" id="color">
+        <input type="date" name="DOB" id="date">
+        <input type="datetime-local" name="datetime" id="datetime">
+        <input type="file" name="file" id="file">
+        <input type="hidden" name="hidden" id="hidden">
+        <input type="number" name="number" id="number" placeholder="2+3*5=">
+        <input type="range" name="range" id="range">
+        <input type="search" name="search" id="search" placeholder="Search here">
+        <input type="url" name="url" id="url" placeholder="Enter your linkedin profile url">
+        <input type="tel" name="tel" id="tel" placeholder="Enter your telephone number">
+        <input type="radio" name="radio button" name="gen" id="">
+        <label for="gen">Male</label>
+        <input type="radio" name="radio button" name="gen" id="">
+        <label for="male">Female</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Remember me</label>
+        <label for="choose">Choose your technology</label>
+        <select name="select" id="select">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="Go">Go</option>
+            <option value="Kotlin">Kotlin</option>
+            <option value="Swift">Swift</option>
+            <option value="Dart">Dart</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="SQL">SQL</option>
+            <option value="NoSQL">NoSQL</option>
+            <option value="MongoDB">MongoDB</option>
+            <option value="Firebase">Firebase</option>
+            <option value="MySQL">MySQL</option>
+            <option value="PostgreSQL">PostgreSQL</option>
+            <option value="SQLite">SQLite</option>
+            <option value="MariaDB">MariaDB</option>
+            <option value="Oracle">Oracle</option>
+            <option value="SQL Server">SQL Server</option>
+            <option value="DB2">DB2</option>
+            <option value="Sybase">Sybase</option>
+            <option value="Informix">Informix</option>
+            <option value="Access">Access</option>
+            <option value="Excel">Excel</option>
+            <option value="PowerPoint">PowerPoint</option>
+            <option value="Word">Word</option>
+            <option value="Outlook">Outlook</option>
+            <option value="OneNote">OneNote</option>
+            <option value="Teams">Teams</option>
+            <option value="SharePoint">SharePoint</option>
+            <option value="Visio">Visio</option>
+            <option value="Project">Project</option>
+            <option value="Publisher">Publisher</option>
+            <option value="Access">Access</option
+        <select name="select" id="select">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Rust">Rust</option>
+            <option value="Go">Go</option>
+            <option value="Kotlin">Kotlin</option>
+            <option value="Swift">Swift</option>
+            <option value="Dart">Dart</option>
+            <option value="TypeScript">TypeScript</option>
+            <option value="SQL">SQL</option>
+            <option value="NoSQL">NoSQL</option>
+            <option value="MongoDB">MongoDB</option>
+            <option value="Firebase">Firebase</option>
+            <option value="MySQL">MySQL</option>
+            <option value="PostgreSQL">PostgreSQL</option>
+            <option value="SQLite">SQLite</option>
+            <option value="MariaDB">MariaDB</option>
+            <option value="Oracle">Oracle</option>
+            <option value="SQL Server">SQL Server</option>
+            <option value="DB2">DB2</option>
+            <option value="Sybase">Sybase</option>
+            <option value="Informix">Informix</option>
+            <option value="Access">Access</option>
+            <option value="Excel">Excel</option>
+            <option value="PowerPoint">PowerPoint</option>
+            <option value="Word">Word</option>
+            <option value="Outlook">Outlook</option>
+            <option value="OneNote">OneNote</option>
+            <option value="Teams">Teams</option>
+            <option value="SharePoint">SharePoint</option>
+            <option value="Visio">Visio</option>
+            <option value="Project">Project</option>
+            <option value="Publisher">Publisher</option>
+            <option value="Access">Access</option
+
+        <input class="button" type="submit" value="Submit">
+        <input class="button" type="reset" value="Reset">
+        
+    </fieldset>
+
+
+    <foam>
+        <fieldset>
+        <legend>LOG IN</legend>
+        <input type="text" name="name" id="name" placeholder="Enter first your name">
+        <input type="text" name="name" id="name" placeholder="Enter second your name">
+        <input type="date" name="DOB" id="date">
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <input type="number" name="number" id="number" placeholder="Enter your phone number">
+        <input type="button" name="button" id="button" value="Submit">
+        <input type="button" name="button" id="button" value="Reset">
+    </fieldset>
+       </foam> 
+
+
+       <foam>
+        <fieldset>
+        <legend>EMPLOYEE DETALIS</legend>
+        <input type="text" name="name" id="name" placeholder="Enter first your name">
+        <input type="text" name="name" id="name" placeholder="Enter your last name">
+        <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+        <input type="number" name="employee id" id="employee id" placeholder="Enter employee ID">
+        <input type="text" name="desitination" id="desitination" placeholder="Enter your desitination">
+        <input type="number" name="number" id="number" placeholder="Enter your phone number">
+        <input type="button" name="button" id="button" value="Submit">
+    </fieldset>
+       </foam> 
+
+<br>
+<foam>
+       <fieldset>
+        <h1 align="center">LOG IN</h1>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <input type="button" value="Submit">
+        <br>
+        Don't have an account? <a href="signup.html">Sign up</a>
+       </fieldset>
+</foam>
+
+<br>
+
+<fieldset>
+    <foam>
+        <h3 align="center">Novell Services Login</h3>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <label for="empl city">Enter your employment city</label>
+        <input type="text" id="emp city" placeholder="Enter your employment city">
+        <label for="empl city">Choose a web server</label>
+        <select name="select" id="select">
+            <option value="HTML"> Choose a server</option>
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+            <option value="Option 4">Option 4</option>
+            <option value="Option 5">Option 5</option>
+            <option value="Option 6">Option 6</option>
+            <option value="Option 7">Option 7</option>
+            <option value="Option 8">Option 8</option>
+            <option value="Option 9">Option 9</option>
+            <option value="Option 10">Option 10</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="">Please specify your role</label>
+            <input type="radio" name="role" value="admin" id="admin">
+            <label for="admin">Admin</label>
+            <input type="radio" name="role" value="engineer" id="engineer">
+            <label for="engineer">Engineer</label>
+            <input type="radio" name="role" value="manager" id="manager">
+            <label for="manager">Manager</label>
+            <input type="radio" name="role" value="guest" id="guest">
+            <label for="guest">Guest</label>
+
+            <br>
+            <br>
+            <br>
+
+            <label for="">Single sign-on to the following</label>
+
+            <input type="checkbox" name="sso" id="sso-mail" value="mail">
+            <label for="sso-mail">Mail</label>
+            <input type="checkbox" name="sso" id="sso-payroll" value="payroll">
+            <label for="sso-payroll">Payroll</label>
+            <input type="checkbox" name="sso" id="sso-self-service" value="self-service">
+            <label for="sso-self-service">Self Service</label>
+
+
+            <input type="button" value="Login">
+            <input type="button" value="Reset">
+            
+    </foam>
+</fieldset>
+
+</body>
+</html>

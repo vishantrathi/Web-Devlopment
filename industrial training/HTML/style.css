@@ -3,3 +3,12 @@ h3{
     color: brown;
     font-size: 50px;
 }
+#id1{
+    color: chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 300px;
+    background-color: blueviolet;
+    
+
+}

@@ -12,3 +12,25 @@ h3{
     
 
 }
+.class1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(179, 108, 246);
+    color: forestgreen;
+}
+h4{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: olive;
+    text-shadow: 5px 5px red;
+    letter-spacing: 10px;
+}
+p{
+    text-align: justify;
+    text-decoration:line-through;
+    text-align-last: center;
+    font-family: fantasy;
+    font-weight: 200;
+    color: rgb(249, 112, 0);
+    background-color: gold;
+}

@@ -1,0 +1,26 @@
+body{
+    /* background-image: linear-gradient(red, yellow,green,brown); */
+    /* background-image: linear-gradient(to left,purple,white); */
+    /* background-repeat: repeat-y; */
+    background-image: url("https://www.w3schools.com/css/img_flwr.gif");
+    filter: grayscale(100%);
+    backdrop-filter: blur(10px);
+
+}
+.border{
+    text-align: center;
+    border: 1px solid black;
+    border-width: 5px;
+    border-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.c1{
+    border: 5PX solid red;
+    font-family: fantasy;
+    text-align: center;
+    border-top: dotted blueviolet;
+    border-bottom: dashed blueviolet;
+    border-left: solid rgb(17, 27, 212);
+}

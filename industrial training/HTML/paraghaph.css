@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: chartreuse;
+    background-color: violet;
+}
+.p1{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}

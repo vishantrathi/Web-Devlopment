@@ -4,10 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .nav{
+            background-color: black;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
+        a{
+            color: beige;
+            text-decoration: none;
+            font-family: cursive;
+            margin: 10px;
+        }
+        a:hover{
+            background-color: cornflowerblue;
+            color: darkorange;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .parent{
+            display: flex;
+            height: 500px;
+            background-color: red;
+            align-items: center;
+        }
+        .parent:hover{
+            background-color: crimson;
+
+        }
+        .child{
+            width: 50%;
+            height: 300px;
+            background-color: forestgreen;
+            border: 5px solid blueviolet;
+            margin: 20px;
+
+        }
+        .child:hover{
+            background-color: chartreuse;
+        }
+        h1{
+            font-family: fantasy;
+        }
+
+    </style>
 </head>
-<body>
-    <div>
-        
+<body>  
+    <div class="nav">
+        <a href="" class="nav1">HOME</a>
+        <a href="" class="nav1">ABOUT US</a>
+        <a href="" class="nav1">SERVICES</a>
+        <a href="" class="nav1">CONTACT</a>
+        <a href="" class="nav1">LOGIN/SIGNUP</a>
+
+    </div>
+    <section>
+        <div class="parent">
+            <div class="child">
+                <h1>this is child 1</h1>
+            </div>
+            <div class="child">
+                <h1>this is child 2</h1>
+            </div>
+            <div class="child">
+                <h1>this is child 3</h1>
+            </div>
+            <div class="child">
+                <h1>this is child 4</h1>
+            </div>
+        </div>
+    </section>
+
     </div>
 </body>
 </html>

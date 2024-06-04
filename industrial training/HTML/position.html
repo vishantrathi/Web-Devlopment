@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .div{
+    height: 300px;
+    background-color: red;
+    
+
+}
+.rel{
+    font-size: 55px;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    left: 20%;
+    top: 30%;
+
+}
+
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+
+.abs{
+    font-size: 55px;
+    font-family: cursive;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+
+}
+    </style>
 </head>
 <body>
-    <div class="">
-        
+    <div class="div">
+            <h1 class="rel">this is relative position</h1>
+            <h3>this is relative</h3>
+    </div>
+    <div class="div">
+        <h1 class="abs"> this is absolute position</h1>
+        <h3>this is absolute</h3>
     </div>
 </body>
 </html>

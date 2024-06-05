@@ -48,10 +48,10 @@
         margin-top: 20px;
         display: grid;
         gap: 12px;
+        position: relative;
         grid-template-columns: auto auto auto auto;
     }
     .box button{
-        
         height: 60px;
         width: 60px;
         border-radius: 78%;
@@ -62,7 +62,61 @@
     .calculator2>button{
         background-color: orange;
     }
+    @media only screen and (max-width: 600px) {
+        body {
+            height: auto;
+            width: auto;
+            background-color: burlywood;
+        }
+        .screen{
+            background-color: seagreen;
+        }
+        
+        .main {
+            width: 100%;
+        }
+        .resultscreen{
+            background-color: yellowgreen;
+            padding: 20px;
+        }
+        .box{
+            border-width: 50px;
+            
+        }
+        .box button{
+            background-color: cornflowerblue;
+        }
+        .calculator1>button{
+            background-color:darkslateblue;
+        }
+        .calculator2>button{
+        background-color:crimson;
+        }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px){
+    .screen{
+        background-color: yellow;
+    }
+    .screen h3{
+        font-size: 15px;
+    }
+    .resultscreen{
+        background-color: magenta;
+        padding: 19px;
+    }
+    .box button{
+        /* background-color: darkorange; */
+        /* height: 59px; */
+    }
+    .calculator1>button{
+            background-color:green;
+        }
+        .calculator2>button{
+        background-color:lime;
+       }
+}
 
+    
 
 </style>
 <body>

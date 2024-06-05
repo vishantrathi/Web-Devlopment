@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo{
+            width: 500px;
+            height: 500px;
+            background-color: brown;
+            text-align: center;
+            font-size: 50px;
+            /* transform: scalex(1.5); */
+            /* transform: rotate(45deg); */
+            /* transform: skew(20deg); */
+            cursor: pointer;
+            transform: rotate(0deg);
+            transition: transform 5s;
+        }
+        .demo2{
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            transition: transform 5s;
+        }
+        .demo2 :hover{
+            /* transform: scale(1.5); */
+            transform: rotate(45deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="demo">HELLO</div>
+    <br>
+    <div class="demo2">HELLO WORLD</div>
+
+</body>
+</html>

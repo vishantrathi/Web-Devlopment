@@ -1,0 +1,32 @@
+body{
+    background-color: pink;
+
+}
+@media(max-width: 1500px){
+    body{
+        background-color: yellowgreen;
+        background-image: url('https://www.w3schools.com/w3images/mountains.jpg');
+    }
+}
+.media-item{
+    background-color: forestgreen;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+@media(max-width: 1000px)and(min-width: 500px){
+    .media-item{
+        background-color: yellow;
+        color: black;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+}
+@media(max-width:1000px)and(min-width: 500px){
+    .pp{
+        background-color: red;
+        color: white;
+        font-family: serif;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Foam using bootstrap</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            border-radius: 1%;
+            height:650px;
+            width: 600px;
+            margin:50px;
+            padding: 0%;
+        }
+        .container h1{
+            text-align: center;
+            margin-top: 0;
+            
+        }
+        .sectionA{
+            display: flex;
+            margin-top: 45px;
+            justify-content: space-between;
+            padding: 1% 1%;
+        }
+        .section2{
+            padding: 1% 1%;
+        }
+        .section3{
+            padding: 1% 1%;
+        }
+        .section4{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 25px;
+            gap: 10px;
+            text-align: center;
+            padding: 1% 1%;
+        }
+        .section5{
+            padding-top: 30px;
+            padding: 4% 1%;
+            
+        }
+        .section6{
+            padding-top: 20px;
+            padding: 1% 1%;
+        }
+        .section7{
+            padding-top: 20px;
+        }
+        .section7 button{
+            border: none;
+            padding: 10px 20px;
+            background-color: rgb(217, 36, 54);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div type="heading" class="w-100 p-3 bg-dark text-white"><h1>EVENT REGISTRATION FORM</h1></div>
+        <div class="sectionA">
+        <div class="section1">
+            <label for="validationDefault01" aria-placeholder="name" class="form-label"">Name</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+          </div>
+          <div class="sectionA2">
+            <label for="validationDefault02" class="form-label">&nbsp</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+          </div>
+        </div>
+        <div class="section2">
+            <label for="validationDefault01" class="form-label">Company</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+          </div>
+            <div class="section3">
+                <label for="validationDefault02" class="form-label">Email</label>
+                <input type="email" class="form-control" id="validationDefault02" value="" required>
+        </div>
+        <div class="section4">
+            <label for="validationDefault02" class="form-label">Phone</label>
+            <div>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Area Code" value="" required>
+        </div>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Phone Number" value="" required>
+        </div>
+        <div class="section5">
+            <label for="validationDefault02" class="form-label">Subject</label>
+            <select name="subjects" id="subjects">
+            <option value="select">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select-Option &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+            <option value="math">Attendance</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            <option value="language">Language</option>
+            </select>
+        </div>
+        <div class="section6">
+            <label for="existingCustomer" class="form-label">Are you an existing customer?</label>
+            <div>
+            <div class="section6a">
+                <input class="form-check-input" type="radio" name="existingCustomer" id="existingCustomerYes" value="yes">
+                <label class="form-check-label" for="existingCustomerYes">
+                    Yes
+                </label>
+                <input class="form-check-input" type="radio" name="existingCustomer" id="existingCustomerNo" value="no">
+                <label class="form-check-label" for="existingCustomerNo">
+                    No
+                </label>
+            </div>
+            <div class="section7">
+            <button>Register</button>
+            </div>
+    </div>
+    </div>
+</body>
+</html>

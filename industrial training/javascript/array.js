@@ -82,7 +82,3 @@ console.log("remove last fruit and add it to the beginning",fruits);
 // Sorting and Reversing an Array
 // 1. Write a function that takes an array of strings and returns a new array with the strings sorted in alphabetical order.
 // 2. Write a function that reverses the elements of an array without using the built-in reverse method.
-
-
-
-

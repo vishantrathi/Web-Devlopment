@@ -5,11 +5,11 @@
 
 
 //SUM OF TWO NUMBERS
-// function multiplication(a,b){
-//     return a*b
-// }
-// let res = multiplication(5,5)
-// console.log(res)
+function multiplication(a,b){
+    return a*b
+}
+let result = multiplication(5,5)
+console.log(result)
 
 //Q:Cube of a number
 function cube(a){
@@ -31,8 +31,3 @@ const multiply =() =>{
     return 5*3; 
 }
 console.log(multiply())
-
-
-
-
-

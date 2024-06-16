@@ -16,3 +16,8 @@ let interval = document.getElementById("demo2");
 setInterval(function(){
     interval.innerHTML += "Hello",2000;
 });
+
+//stop interval function
+function stopInterval(){
+    clearInterval(interval);
+}

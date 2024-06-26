@@ -1,0 +1,2 @@
+getname();
+console.log(x);

@@ -15,9 +15,19 @@
 // console.log(x);//output = undefined
 
 var x=7;
-function getname(){
+ function getname2(){
+    console.log("1");
+ }
+
+ var getname3 = function (){
+    console.log("2");
+
+ }
+var getname = () => {
     console.log("namaste javascript");
 }
 getname();
 console.log(x);
-// console.log(getname);
+console.log(getname);
+console.log(getname2);
+console.log(getname3);  

@@ -1,3 +1,2 @@
-getname();
-// console.log(x);
-// console.log(getname);
+console.log(b);
+        // console.log(c);

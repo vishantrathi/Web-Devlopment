@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .thomas_message {
+    background-color: #F6F6F6;
+    padding: 12px;
+    width: fit-content;
+    max-width: 240px;
+    border-radius: 16px;
+  }
+  
+  .my_message {
+    color: #FFF;
+    background-color: #CE41FF;
+    padding: 12px;
+    width: fit-content;
+    max-width: 240px;
+    border-radius: 16px;
+    margin-left: auto;
+  }
+  
+  
+  
+  
+  a {
+    text-decoration: none;
+  }

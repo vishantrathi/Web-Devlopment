@@ -1,9 +1,9 @@
-// console.log("Hey this is javascript")
-// var a=5;
-// var b=5;
-// var c="Hello";
-// console.log(a+b+8)
-// console.log(typeof a,typeof b,typeof c)
+console.log("Hey this is javascript")
+var a=5;
+var b=5;
+var c="Hello";
+console.log(a+b+8)
+console.log(typeof a,typeof b,typeof c)
 // // Nameing convention
 // // 1.Letters, digits, underscores and $ sign are allowed
 // // 2. must begin with a,$,_or a Letters
@@ -46,4 +46,17 @@
 // item.price="100";
 // console.log(item);
 
-const accountId=
+const accountId= 14344
+let accountEmail= "vishant@mail.com"
+var accountPassword= "Jaipur"
+console.log("Values are: " ,accountId, accountEmail, accountPassword);
+
+
+//Changing Values of the variables
+accountEmail="hffman@mail.com"
+accountPassword="21332442"
+console.table([accountEmail,accountId])
+
+/* Prefer not to use the var
+because of issue in block scope and functional scope */
+

@@ -18,3 +18,9 @@ console.log(BooleanIsLoggedIn)
 //1=> true;0=>flase
 //""=> false
 //"Name"=> true
+
+
+let someNumber=33
+let stringNumber=String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)

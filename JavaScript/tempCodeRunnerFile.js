@@ -1,1 +1,1 @@
-fullname
+console.log(tinderuser);

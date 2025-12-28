@@ -1,3 +1,3 @@
-let a=10
-// const b=20
-// var c=30
+(function chai(){
+//     console.log(`DB Connected NOW`)
+// })()

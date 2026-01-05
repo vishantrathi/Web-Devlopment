@@ -7,6 +7,6 @@
     console.log(`DB Connected NOW`)
 })(); //iife doen't know where to end the context for that we use;
 
-( (name)=> {
+( (name )=> {
     console.log(`DB Connected for the Second Time ,${name}`)
 })('Vishant')

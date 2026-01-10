@@ -26,8 +26,6 @@ for (const key of map) {
 
 //key and value are seprated
 for (const [key,value] of map) {
-    console.log(key, ':-' ,value);
-    
+    console.log(key, ':-' ,value);   
 }
-
-
+ 

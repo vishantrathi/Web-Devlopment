@@ -47,23 +47,74 @@ for (const i of greetings) {
 
 //maps
 //maps hold key value pairs and it remembers the original insersion order
-const map=new Map()
-map.set('IN',"India"),
-map.set('ENG',"English"),
-map.set('HIN',"hindi")
+// const map=new Map()
+// map.set('IN',"India"),
+// map.set('ENG',"English"),
+// map.set('HIN',"hindi")
 
 // console.log(map)
-for (const[key,value] of map) {
+// for (const[key,value] of map) {
     // console.log(key,value) // access the key and value seprately
-}
+// }
 
 
 const myNewObject={
-    game1:'subway',
+    game1:"subway",
     game2:'NFS'
 }
 
-for (const[key,value] of myNewObject) {// not iterable
-    console.log(key,value)
+// for (const[key,value] of myNewObject) {// not iterable
+//     console.log(key,':-',value)
+// }
+
+for (const key in myNewObject) {//iterable
+    // console.log(`${key} shortcut is for ${myNewObject[key]}`)
 }
+
+
+const programmingPro = ["js","rb","py","java"]
+for (const key in programmingPro) {
+    // console.log(key);
+    
+}
+
+
+const map= new Map()
+map.set('IN',"India")
+map.set('USA',"UNited States of America")
+map.set('Fr',"France")
+map.set('UK',"United Kingdom")
+
+// for (const key in map) {
+//     console.log(value); //0,1,2,3 
+    
+// }
+
+
+const Newcoding=["js","ruby"]
+Newcoding.forEach((item,index,arr)=>{
+    // console.log(item,index,arr);
+})
+
+
+const mycoding=[
+{
+    lanuageName:"javascript",
+    langaugeFileName:"js"
+},
+{
+    lanuageName:"java",
+    langaugeFileName:"java"
+},
+{
+    lanuageName:"CplusPlus",
+    langaugeFileName:"cpp"
+},
+]
+
+mycoding.forEach(item => {
+    console.log(item.lanuageName);
+    
+    
+});
 

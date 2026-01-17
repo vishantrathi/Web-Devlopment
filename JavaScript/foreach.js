@@ -50,4 +50,34 @@ const newNum=myNumber
         .map((num)=> num+1)
         .filter((num=>num>=20))
 
-console.log(newNum);
+// console.log(newNum);
+
+
+const myarray=[1,2,3]
+const myTotal=myarray.reduce(function(acc,currval){
+    // console.log(`acc:${acc}and currval:${currval}`)
+    return acc+currval
+},0)
+
+// in arrow function
+
+const mynewTotal=myarray.reduce((acc,curr)=>acc+curr,0)
+
+// console.log(mynewTotal)
+
+const shoppingCart=[
+    {
+        itemName:"js course",
+        price:199
+    },
+    {
+        itemName:"cpp course",
+        price:1
+    },
+]
+
+const PriceTOPay=shoppingCart.reduce((acc, item)=>acc+item.price,0)
+console.log(PriceTOPay);
+
+
+

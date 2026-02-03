@@ -3,27 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning JavaScript</title>
+    <title>Change the Backgroud colors UNLIMITED</title>
 </head>
 <body>
-    <h1>Javascript</h1>
+    <h1>Start should change the Backgroud colors by clicking on (start) and stop at last appread color , when clicked on (stop)</h1>
     <button id="start">start</button>
     <button id="stop">stop</button>
 </body>
 <script>
-    const saydate=function(str){
-        console.log(str,Date.now())
+    const randomColor= function(){
+        const hex="0123456789ABCDEF"
+        let color='#'
+        for(let i=0;i<6;i++){
+            color +=hex[Math.floor(Math.random()*16)];
+        }
+        return color
     }
-    document.querySelector('#start').addEventListener('click',function(){
-        intervalId=setInterval(saydate,1000,'Hi')
-    })
 
-    document.querySelector('#stop').addEventListener('click',function(){
-        clearInterval(intervalId)
-    })
+    let intervalId;
+    const startChangingColor=function(){
+        intervalId= setInterval(changeBgColor,1000);
 
-    console.log('Stopped')
-    
+        function changeBgColor(){
+            document.body.style.background=randomColor()
+        }
+        
+    }
+    const stopChangingColor=function(){
+        clearInterval(intervalId);
+        intervalId=null;
+    }
+
+    document.querySelector('#start').addEventListener('click',startChangingColor)
+    document.querySelector('#stop').addEventListener('click',stopChangingColor)
+
 
 </script>
 </html>

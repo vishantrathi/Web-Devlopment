@@ -1,7 +1,7 @@
 const user = {
     username: "Hitesh",
     loginCount: 8,
-    signIn: true,
+    signedIn: true,
 
     getUserDetails: function(){
         console.log(`Username: ${this.username}`);
@@ -19,3 +19,27 @@ function NewUser(username, loginCount, isLoggedIn){
 const userOne = new NewUser("hitesh", 12, true)
 const userTwo = new NewUser("hitesh2", 132, false)
 console.log(userOne);
+
+
+//OOPS
+ 
+
+/*Parts of OOPS
+Object literals{}
+
+Construsctor
+Prototypes
+Classes
+Instances(new,this)
+*/
+
+//4 Pillors
+
+//Abstraction
+//Encaptulation
+//Inheritance
+//Polymorphism
+
+
+// new ek constructor function hai
+

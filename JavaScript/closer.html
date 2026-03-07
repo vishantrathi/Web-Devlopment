@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // function init(){
+    // void function displayName(){
+    //     console.log(name);
+    // }
+    // displayName();
+    // }
+    // init();
+
+    
+function outer(){
+    let username="Vishant"
+    // log.console("OUTER",secrte)
+
+    function inner(){
+        let secrte="123"
+        // console.log("Inner",username);
+    }
+    function inner2(){
+        console.log("Inner2",username);
+        // console.log(secrte); 
+        
+    }
+    inner();
+    inner2(); 
+}
+outer()
+console.log("TOO OUTER".username);
+</script>
+<script>
+</script>
+</body>
+</html>
